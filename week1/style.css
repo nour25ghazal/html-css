@@ -1,0 +1,44 @@
+body{
+  margin-right:30px;
+  margin-left:30px;
+  border:solid 1px;
+  border-radius:2%;
+}
+.page-tittle{
+  text-align:center;
+  font-family:cursive;
+  background-color:rgb(246, 255, 186);
+}
+table{
+  width:50%;
+   line-height:1.8em;
+}
+.my-photo{
+  float:right;
+  margin-top:4px;
+  margin-right:4px;
+  border-radius:25%;
+  border:solid 1px;
+  width:200px;
+  
+}
+h2{
+  border-bottom:solid;
+  font-family:fantasy;
+  margin-left:4px;
+  
+}
+strong{
+  color:blue;
+}
+.personal-information{
+   display: inline-block;
+   margin-left:50px;
+   line-height:1.8em;
+
+}
+.education{
+   display: inline-block;
+   margin-left:50px;
+   line-height:1.8em;
+}
