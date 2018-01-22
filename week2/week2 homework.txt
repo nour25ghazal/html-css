@@ -1,0 +1,77 @@
+nourg@DESKTOP-KDUBKVH MINGW64 ~
+$ mkdir blank
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~
+$ pwd
+/c/Users/nourg
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~
+$ cd blank
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ touch greetings.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo hello >greetings.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo hello >>greetings.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo hello >>greetings.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo hello >>greetings.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo hello >>greetings.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cat greetings.txt
+hello
+hello
+hello
+hello
+hello
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cp greetings.txt 1.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cp greetings.txt 2.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cp greetings.txt 3.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cp greetings.txt 4.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cp greetings.txt 5.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo cat >pets.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo dog >>pets.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo hamster >>pets.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo cat >command.txt
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo ls >>command.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ echo pwd >>command.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cat command.txt pets.txt | sort | uniq -u > lovelycommand.txt
+
+nourg@DESKTOP-KDUBKVH MINGW64 ~/blank
+$ cat lovelycommand.txt
+dog
+hamster
+ls
+pwd
