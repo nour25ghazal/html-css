@@ -1,0 +1,418 @@
+body {
+    margin: 0px;
+}
+
+@media (max-width:767px) {
+    .logo {
+        margin-left: 45%;
+        width: 40%;
+    }
+    #nav-bar {
+        padding-left: 0px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        background-color: #01689b;
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nav-bar:nth-child(1) {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .nav-bar {
+        color: white;
+        line-height: 1.5em;
+        width: calc(100% / 2);
+        text-align: center;
+    }
+    .main-photo {
+        width: 100%;
+
+
+    }
+    #photo-list {
+        margin: 0px;
+        position: relative;
+        padding: 20px;
+        top: -5px;
+        line-height: 1.5em;
+        list-style: none;
+        text-align: center;
+        background-color: #01689b;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .photo-list {
+        width: calc(50% - 5px);
+
+    }
+
+    #main-list {
+        background-color: #f3f3f3;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .main-list {
+        list-style: none;
+        width;
+        100%;
+
+    }
+    .main-list p {
+        margin-bottom: 0px;
+        padding-bottom: 16px;
+    }
+    h2 {
+        color: #01689b;
+        margin-top: 0px;
+
+        padding-top: 19px;
+    }
+    .second-list img {
+        width: 100%;
+    }
+    #second-list {
+        margin-top: 0px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        list-style: none;
+        padding-right: 40px;
+    }
+    h3 {
+        margin-left: 15px;
+    }
+    #third-list {
+        list-style: none;
+        margin-right: 10px
+    }
+    #fourth-list {
+        list-style: none;
+        margin-left: 17%;
+
+
+    }
+    .fourth-list {
+        width: 50%;
+        text-align: center;
+        line-height: 1.5em;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 2px solid;
+        border-color: darkgray;
+    }
+    .fourth-list:nth-child(1) span {
+        font-size: 40px;
+        line-height: 1.5em;
+        color: #01689b;
+    }
+    .fourth-list:nth-child(2) span {
+        color: blueviolet;
+    }
+    .bottom-section {
+        background-color: #01689b;
+        color: white;
+    }
+    #bottom-li {
+        display: inline-block;
+        width: calc(50% - 50px);
+        list-style: none;
+    }
+    .left-side {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+}
+
+/*end of phone style*/
+
+@media (min-width:768px) and (max-width:991px) {
+    .logo {
+        margin-left: 45%;
+        width: 40%;
+    }
+    #nav-bar {
+        padding-left: 0px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        background-color: #01689b;
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nav-bar:nth-child(1) {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .nav-bar {
+        color: white;
+        line-height: 1.5em;
+        width: calc(100% / 2);
+        text-align: center;
+    }
+    .main-photo {
+        width: 100%;
+
+
+    }
+    #photo-list {
+        margin: 0px;
+        position: relative;
+        padding: 20px;
+        top: -5px;
+        line-height: 1.5em;
+        list-style: none;
+        text-align: center;
+        background-color: #01689b;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .photo-list {
+        width: calc(50% - 5px);
+
+    }
+
+    #main-list {
+        background-color: #f3f3f3;
+        padding-right: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .main-list {
+        list-style: none;
+        width: calc(100% / 2);
+
+    }
+    .main-list p {
+        margin-bottom: 0px;
+        padding-bottom: 16px;
+    }
+    h2 {
+        color: #01689b;
+        margin-top: 0px;
+
+        padding-top: 19px;
+    }
+    .second-list img {
+        width: 100%;
+    }
+    .second-list {
+        width: 40%;
+        padding: 30px;
+    }
+    #second-list {
+        margin-top: 0px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        list-style: none;
+        padding-right: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    h3 {
+        margin-left: 15px;
+    }
+    #third-list {
+        list-style: none;
+        padding-right: 20px;
+    }
+    #fourth-list {
+        list-style: none;
+        margin-left: 25%;
+    }
+    .fourth-list {
+        width: 50%;
+        text-align: center;
+        line-height: 1.5em;
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 2px solid;
+        border-color: darkgray;
+    }
+    .fourth-list:nth-child(1) span {
+        font-size: 40px;
+        line-height: 1.5em;
+        color: #01689b;
+    }
+    .fourth-list:nth-child(2) span {
+        color: blueviolet;
+    }
+    .bottom-section {
+        background-color: #01689b;
+        color: white;
+    }
+    #bottom-li {
+        display: inline-block;
+        width: calc(50% - 50px);
+        list-style: none;
+    }
+    .left-side {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+}
+
+/*end of tablet style*/
+
+@media (min-width:992px) {
+    .logo {
+        top: 0px;
+        padding-left: 45%;
+        padding-bottom: 0%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #nav-bar {
+        height: 60px;
+        background-color: #01689b;
+        position: relative;
+        top: 18px;
+    }
+    .nav-bar:nth-child(1) {
+        width: 35%;
+        font-size: 25px;
+    }
+    .nav-bar:nth-child(n+2) {
+        width: 10%;
+        font-size: 17px;
+    }
+
+    .nav-bar {
+        color: white;
+        position: relative;
+        top: 15px;
+        list-style: none;
+        display: inline-block;
+        background-color: #01689b;
+        font-family: sans-serif;
+    }
+    .main-photo {
+        width: 100%;
+        height: 300px;
+    }
+
+    #photo-list {
+        font-size: 18px;
+        font-family: sans-serif;
+        color: #01689b;
+        position: absolute;
+        top: 37%;
+        background-color: white;
+        line-height: 2em;
+        width: 400px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+
+    }
+
+    #main-list {
+        margin-top: -4px;
+        background-color: #f3f3f3;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main-list {
+        list-style: none;
+        width: calc(25% - 50px);
+    }
+    .main-list p {
+        margin-bottom: 0px;
+        padding-bottom: 16px;
+    }
+    h2 {
+        color: #01689b;
+        margin-top: 0px;
+
+        padding-top: 19px;
+    }
+    .second-list {
+        width: calc(33% - 50px);
+    }
+    .second-list img{
+        width: 100%;
+    }
+    #second-list {
+        padding-top: 30px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    h3 {
+        margin-left: 15px;
+    }
+    #third-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .third-list {
+        width: calc(33% - 50px);
+    }
+    #fourth-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        list-style: none;
+    }
+
+    .fourth-list {
+        width: 25%;
+        font-size: 30px;
+        text-align: center;
+        border: 4px solid grey;
+        margin-left: 45px;
+    }
+    .fourth-list:nth-child(1) span {
+        font-size: 40px;
+        line-height: 1.5em;
+        color: #01689b;
+    }
+    .fourth-list:nth-child(2) span {
+        color: blueviolet;
+    }
+    .bottom-section {
+        background-color: #01689b;
+        color: white;
+    }
+    #bottom-li {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        list-style: none;
+    }
+
+    .bottom-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 10%;
+    }
+    .left-side {
+        position: absolute;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+}
